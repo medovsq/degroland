@@ -6,8 +6,8 @@
     z-index: 0;
     background-attachment: fixed;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+
 }
 
 .textTable {
@@ -15,11 +15,12 @@
     height: 12rem;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: saturate(100%) blur(20px);
-    margin: auto;
+    margin-bottom: 30px;
     color: white;
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 300;
     text-align: center;
+
 }
 
 h1 {
