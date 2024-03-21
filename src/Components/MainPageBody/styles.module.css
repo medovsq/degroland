@@ -32,3 +32,40 @@ h6 {
     margin-right: 10px;
     align-items: start;
 }
+
+@media screen and (max-width: 900px) {
+    .footer {
+        max-width: 100%;
+
+    }
+
+    .row {
+        display: block;
+        justify-content: space-between;
+        z-index: 10;
+        top: 100vh;
+        width: 100%;
+        position: absolute;
+        background-color: rgb(33 37 41);
+        font-family: 'Noto Sans Mono', monospace;
+        font-size: 2rem;
+        color: whitesmoke;
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+    }
+
+    h6 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .ds {
+        margin-left: 10px;
+    }
+
+    .tg {
+        margin-right: 10px;
+        align-items: start;
+    }
+}
